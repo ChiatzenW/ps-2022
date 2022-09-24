@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "online lab on water and food security",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/ChiatzenW/ps-2022#readme",
   "dependencies": {
+    "babel-preset-react": "^6.24.1",
     "next": "^12.3.1",
     "react": "^18.2.0"
   }
